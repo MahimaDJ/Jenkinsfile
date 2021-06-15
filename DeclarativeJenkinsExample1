@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Github checkout') {
             steps {
-                git branch: 'main', credentialsId: 'MahimaGithub', url: 'https://github.com/MahimaDJ/devops-learning/'
+                 echo "Github checkout"
                           }
         }
         
